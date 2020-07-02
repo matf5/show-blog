@@ -1,0 +1,1 @@
+export const HEADER_BLOG_NAME = 'matt的博客';
