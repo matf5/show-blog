@@ -10,7 +10,6 @@ const contentLayout = { xxl: 20, xl: 19, lg: 19, sm: 24, xs: 24 }
 
 function Home (props) {
   const { route } = props;
-  console.log(route);
   return (
     <Layout className="app-container">
       <Header></Header>
@@ -20,7 +19,9 @@ function Home (props) {
         </Col>
         <Col {...contentLayout}>
             {/* <AppMain {...props} /> */}
+            <div class="app-main">
             { renderRoutes(route.routes) }
+            </div>
         </Col>
       </Row>
     </Layout>

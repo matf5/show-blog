@@ -11,7 +11,6 @@ import { NavLink, Link, withRouter } from 'react-router-dom';
 const { Header } = Layout;
 
 function Nav(props) {
-  console.log('route', props);
   const [indexKey, setIndexKey] = useState('read');
   return (
     <Header>

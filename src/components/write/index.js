@@ -6,4 +6,4 @@ function Write (props) {
     </div>
   )
 }
-export default React.memo(Write);
+export default Write;

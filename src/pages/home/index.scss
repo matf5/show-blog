@@ -3,4 +3,13 @@
   .app-wrapper {
     background: #fff;
   }
+  .app-main {
+    padding: 20px;
+    height: calc(100vh - 104px);
+    overflow: auto;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 }

@@ -1,0 +1,19 @@
+.app-aritcle {
+  .post-header {
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    .btn-edit {
+      position: absolute;
+      right: 0px;
+      bottom: 40px;
+    }
+    .post-title {
+      color: #0d1a26;
+      font-size: 1.7em;
+      font-weight: 400;
+      margin-top: 0;
+    }
+  }
+}

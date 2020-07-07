@@ -300,6 +300,7 @@ module.exports = function(webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         '@comp': path.resolve('./src/components'),
+        'style': path.resolve('./src/style'),
         '@': path.resolve('./src'),
         ...(modules.webpackAliases || {}),
       },

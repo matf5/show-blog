@@ -13,4 +13,4 @@ function Read (props) {
     </div>
   )
 }
-export default React.memo(Read);
+export default Read;
