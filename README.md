@@ -1,7 +1,7 @@
 ## Matt的博客
 
 ### 技术栈
-react（全面拥抱hooks） + antd
+react（全面拥抱hooks） + react-router + mobx + antd
 
 ### 功能清单
 
